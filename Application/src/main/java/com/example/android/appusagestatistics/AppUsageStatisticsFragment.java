@@ -58,7 +58,6 @@ public class AppUsageStatisticsFragment extends Fragment {
     Button mOpenUsageSettingButton;
     Spinner mSpinner;
 
-    //PullRefreshListView mPullRefreshListView;
 
     /**
      * Use this factory method to create a new instance of
@@ -93,6 +92,7 @@ public class AppUsageStatisticsFragment extends Fragment {
     public void onViewCreated(View rootView, Bundle savedInstanceState) {
         super.onViewCreated(rootView, savedInstanceState);
 
+
         mLayoutManager = new LinearLayoutManager(getActivity());
         mUsageListAdapter = new UsageListAdapter();
         mRecyclerView = (RecyclerView) rootView.findViewById(R.id.recyclerview_app_usage);
@@ -110,6 +110,7 @@ public class AppUsageStatisticsFragment extends Fragment {
 
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+
                 StatsUsageInterval statsUsageInterval = StatsUsageInterval
                         .getValue(strings[position]);
                 if (statsUsageInterval != null) {

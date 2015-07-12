@@ -42,18 +42,18 @@ public class UsageListAdapter extends RecyclerView.Adapter<UsageListAdapter.View
      */
     public static class ViewHolder extends RecyclerView.ViewHolder {
         private final TextView mPackageName;
-        private final TextView mLastTimeUsed;
+        private final TextView mTotalTimeUsed;
         private final ImageView mAppIcon;
 
         public ViewHolder(View v) {
             super(v);
             mPackageName = (TextView) v.findViewById(R.id.textview_package_name);
-            mLastTimeUsed = (TextView) v.findViewById(R.id.textview_last_time_used);
+            mTotalTimeUsed = (TextView) v.findViewById(R.id.textview_last_time_used);
             mAppIcon = (ImageView) v.findViewById(R.id.app_icon);
         }
 
-        public TextView getLastTimeUsed() {
-            return mLastTimeUsed;
+        public TextView getTotalTimeUsed() {
+            return mTotalTimeUsed;
         }
 
         public TextView getPackageName() {
@@ -79,8 +79,9 @@ public class UsageListAdapter extends RecyclerView.Adapter<UsageListAdapter.View
     public void onBindViewHolder(ViewHolder viewHolder, final int position) {
         viewHolder.getPackageName().setText(
                 mCustomUsageStatsList.get(position).usageStats.getPackageName());
-        long lastTimeUsed = mCustomUsageStatsList.get(position).usageStats.getLastTimeUsed();
-        viewHolder.getLastTimeUsed().setText(mDateFormat.format(new Date(lastTimeUsed)));
+        long totalTimeUsed = mCustomUsageStatsList.get(position).usageStats.getTotalTimeInForeground() / 1000;
+        //viewHolder.getLastTimeUsed().setText(mDateFormat.format(new Date(lastTimeUsed)));
+        viewHolder.getTotalTimeUsed().setText(new String(String.valueOf(totalTimeUsed)));
         viewHolder.getAppIcon().setImageDrawable(mCustomUsageStatsList.get(position).appIcon);
     }
 

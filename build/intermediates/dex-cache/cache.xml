@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/AdrianHsu/Google_Drive/Summer_2015/android-AppUsageStatistics/Application/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/android-AppUsageStatistics/Application/build/intermediates/pre-dexed/debug/classes-8ae136ff536c3947b0210f7d57212f1b2fab861d.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/Google_Drive/Summer_2015/android-AppUsageStatistics/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b017100da14f9c158c9f5f2f508333c224b24a7c">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/android-AppUsageStatistics/Application/build/intermediates/pre-dexed/debug/classes-2cceca820c7219f9b5c1d693a0ad41068a697926.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/android-AppUsageStatistics/Application/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-fdd2e569be923e4843541f95783462b2050cb710.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/Google_Drive/Summer_2015/android-AppUsageStatistics/Application/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.2/jars/libs/internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9346da9fb778af9e451211bbc3541daced174ba7">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/android-AppUsageStatistics/Application/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-6b6f98247e5c4fc12f123d59d3c26fd5c5fa50de.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/Google_Drive/Summer_2015/android-AppUsageStatistics/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/android-AppUsageStatistics/Application/build/intermediates/pre-dexed/debug/classes-f5dc76288141b77aa6e74fd7529ca706171fd4fc.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/Google_Drive/Summer_2015/android-AppUsageStatistics/Application/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61965ae058916e6a57950dd61b0164dc866af19a">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/android-AppUsageStatistics/Application/build/intermediates/pre-dexed/debug/classes-db6d3c40e1076f244b730d57e54e137892369c0f.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/Google_Drive/Summer_2015/android-AppUsageStatistics/Application/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/android-AppUsageStatistics/Application/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-c3755a21227af190805901824642ff4b90a54754.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/Google_Drive/Summer_2015/android-AppUsageStatistics/Application/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/android-AppUsageStatistics/Application/build/intermediates/pre-dexed/debug/classes-81e49ea373ec84c8d39d3434d20155f006574dd8.jar" />
+    </item>
+
+</items>

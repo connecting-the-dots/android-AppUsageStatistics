@@ -58,6 +58,8 @@ public class AppUsageStatisticsFragment extends Fragment {
     Button mOpenUsageSettingButton;
     Spinner mSpinner;
 
+    //PullRefreshListView mPullRefreshListView;
+
     /**
      * Use this factory method to create a new instance of
      * this fragment using the provided parameters.
@@ -113,7 +115,8 @@ public class AppUsageStatisticsFragment extends Fragment {
                 if (statsUsageInterval != null) {
                     List<UsageStats> usageStatsList =
                             getUsageStatistics(statsUsageInterval.mInterval);
-                    Collections.sort(usageStatsList, new LastTimeLaunchedComparatorDesc());
+                    //Collections.sort(usageStatsList, new LastTimeLaunchedComparatorDesc());
+                    Collections.sort(usageStatsList, new TotalTimeinForeGndLaunchedComparatorDesc());
                     updateAppsList(usageStatsList);
                 }
             }
@@ -198,6 +201,13 @@ public class AppUsageStatisticsFragment extends Fragment {
         @Override
         public int compare(UsageStats left, UsageStats right) {
             return (int) (right.getLastTimeUsed() - left.getLastTimeUsed());
+        }
+    }
+    private static class TotalTimeinForeGndLaunchedComparatorDesc implements Comparator<UsageStats> {
+
+        @Override
+        public int compare(UsageStats left, UsageStats right) {
+            return (int) (right.getTotalTimeInForeground() - left.getTotalTimeInForeground());
         }
     }
 
